@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: cornflowerblue;
+}
+
+.calculator {
+  border: 1px solid #fff;
+  padding: 20px;
+  border-radius: 16px;
+  background: transparent;
+  box-shadow: 0px 3px 10px white;
+}
+
+input {
+  width: 320px;
+  border: 0;
+  padding: 25px;
+  margin: 11px;
+  background: transparent;
+  font-size: 40px;
+  text-align: right;
+  cursor: pointer;
+  color: #fff;
+  outline: 0;
+}
+
+input::placeholder {
+  color: #ffffff;
+}
+
+button {
+  border: 0;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 24px;
+  background: transparent;
+  box-shadow: -6px -6px 15px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  color: black;
+  background-color: yellow;
+}
+
+.equal {
+  width: 145px;
+  background-color: #fff;
+  color: black;
+}
+
+.equal:hover {
+  background-color: lightgray;
+}
+
+.operator {
+  background-color: #fff;
+  color: #000;
+}
+
+.operator:hover {
+  background-color: lightgray;
+}
